@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import firebase from 'firebase';
-import firebaseConfig from '../secret/firebase.config';
+import firebaseConfig from '../../secret/firebase.config'; // git ignore this file...please use a firebase git ignore file
 import "firebase/auth";
 import { UserContext } from '../../App';
 import { useHistory, useLocation } from 'react-router-dom';
